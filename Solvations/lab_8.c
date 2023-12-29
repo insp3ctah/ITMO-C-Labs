@@ -32,7 +32,7 @@ void last_occurrence(char str[], char ch) {
 void substring_length(char str1[], char str2[]) {
     int length = strspn(str1, str2);
     printf("substring len: %d\n", length);
-}
+} 
 
 int main() {
     char str1[100];
